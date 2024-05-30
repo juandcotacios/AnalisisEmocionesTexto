@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador De Sentimiento Por Texto</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="top-right">
+        <img src="../AnalisisEmocionesTexto/images/Logo ig.jpg" alt="Imagen Derecha">
+    </div>
+    <div class="main-container">
+        <div class="analizador">
+            <h1>Pre Analizador de Comentarios de la Pagina Konrad Lorenz</h1>
+            <textarea id="input-text" placeholder="Escribe tu texto aquí..."></textarea>
+            <button id="analyze-button">Analizar Sentimiento </button>
+            <div id="result">
+                <h2>Resultado:</h2>
+                <p id="sentiment"></p>
+                <p id="score"></p>
+                <p id="publish"></p>
+            </div>
+        </div>
+        <div class="comentarios">
+            <h2>Analisis de  Comentarios Publicados en la Pagina Konrad Lorenz </h2>
+            <div id="comentarios"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
